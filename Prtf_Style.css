@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/*! Styles for the portfolio website */
+.headers {
+  text-align: center;
+  color: #1b2a49;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+.navbar {
+  background-color: #1b2a49;
+  padding: 10px 20px;
+  display: inline;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;      /* makes the navbar inline */
+  gap: 20px;
+  padding: 15px;
+  margin: 0;
+  background-color: #1b2a49;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #ffb703;
+}
+
+.section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.video-box {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 5px;
+  background-color: #1b2a49;
+  color: white;
+}

@@ -3,36 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Prtf_Style.css">
   <title>Kai Rhodes's Portfolio</title>
 </head>
 <body>
  <header>   
-  <nav>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#work">Work</a></li>
-      <li><a href="#resume">Resume</a></li>
-      <li><a href="#contact">Contact</a></li>
+  <nav class="navbar">
+    <ul class="nav-list">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#work" class="nav-link">Work</a></li>
+      <li><a href="#resume" class="nav-link">Resume</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
     </ul>
   </nav> 
  </header>
  <main>
-  <section id="home">
-    <h1>Welcome to Kai Rhodes's Portfolio Page</h1>
+  <section class="section" id="home">
+    <h1 class="headers">Welcome to Kai Rhodes's Portfolio Page</h1>
     <p>Malakai Rhodes is a passionate baseball player for the Windey City Worriors and a dedicated husband and father.</p>
   </section>
-  <section id="about">
-    <h2>About Him</h2>
+  <section class="section" id="about">
+    <h2 class="headers">About Him</h2>
     <p>Kai Rhodes is a central character in Liz Tomforde’s Windy City romance series, featured as the main protagonist in Caught Up (Book 3) and making appearances in The Right Move and Play Along.</p>
   </section>
-  <section id="work">
-    <h2>His Work</h2>
+  <section class="section" id="work">
+    <h2 class="headers">His Work</h2>
     <p>A starting pitcher for Chicago's MLB team, the Windy City Warriors.</p>
 
   </section>
-  <section id="resume">
-    <h2>Resume</h2>
+  <section class="section" id="resume">
+    <h2 class="headers">Resume</h2>
     <table>
     <thead>
       <tr>
@@ -61,8 +62,8 @@
   </table>
     <p>You can check more of his resume <a href="resume.pdf">here</a>.</p>
   </section>
-  <section id="contact">
-  <h2>Contact Him</h2>
+  <section class="section" id="contact">
+  <h2 class="headers">Contact Him</h2>
   <form action="#" method="post">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
@@ -79,9 +80,15 @@
  </main>
  <br>
  <br>
+ <div class="video-box">
  <video controls width="400">
   <source src="c:\Users\ThinkPad T440\Downloads\Caught Up by Liz Tomforde Audiobook _ When Two Months Feels Too Short.mp4" type="video/mp4">
 </video>
- <footer><p> 2023 Kai Rhodes</p></footer>
+</div>
+<br>
+<br>
+ <footer class="footer">
+  <p> @ 2023 Kai Rhodes</p>
+ </footer>
 </body>
 </html>
